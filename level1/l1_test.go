@@ -50,3 +50,11 @@ func TestFizzBuzzLevel6(t *testing.T){
 		t.Errorf("got %q but want %q", got, want)
 	}
 }
+func TestFizzBuzzLevel7(t *testing.T){
+	input := 7
+	got := FizzbuzzLevel1(input)
+	want := "7"
+	if got != want {
+		t.Errorf("got %q but want %q", got, want)
+	}
+}
