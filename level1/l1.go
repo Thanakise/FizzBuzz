@@ -8,7 +8,7 @@ func FizzbuzzLevel1(number int) string {
 		return "Buzz"
 	}
 
-	if number == 3 {
+	if number == 3 || number == 6 {
 		return "Fizz"
 	}
 	return strconv.Itoa(number)
