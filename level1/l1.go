@@ -2,9 +2,19 @@ package level1
 
 
 func FizzbuzzLevel1(number int) string {
-	if number == 2 {
-		return "2"
+	text := ""
+
+
+	if number == 3 {
+		text = "Fizz"
 	}
 
-	return "1"
+	if number == 2 {
+		text = "2"
+	}
+
+	if number == 1 {
+		text = "1"
+	}
+	return text
 }
