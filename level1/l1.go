@@ -1,5 +1,7 @@
 package level1
 
+import "strconv"
+
 
 func FizzbuzzLevel1(number int) string {
 	text := ""
@@ -7,14 +9,8 @@ func FizzbuzzLevel1(number int) string {
 
 	if number == 3 {
 		text = "Fizz"
-	}
-
-	if number == 2 {
-		text = "2"
-	}
-
-	if number == 1 {
-		text = "1"
+	} else {
+		text = strconv.Itoa(number)
 	}
 	return text
 }
