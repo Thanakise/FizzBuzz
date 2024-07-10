@@ -4,7 +4,7 @@ import "strconv"
 
 
 func FizzbuzzLevel1(number int) string {
-	if number == 5 {
+	if number % 5 == 0{
 		return "Buzz"
 	}
 
