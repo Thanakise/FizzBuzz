@@ -12,7 +12,7 @@ func FizzbuzzLevel1(number int) string {
 		flag = true
 	} 
 	
-	if number == 5 {
+	if number % 5 == 0 {
 		text = "Buzz"
 		flag = true
 	}
