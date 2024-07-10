@@ -7,7 +7,7 @@ func FizzbuzzLevel1(number int) string {
 	text := ""
 	flag := false
 
-	if number == 3 {
+	if number % 3 == 0 {
 		text = "Fizz"
 		flag = true
 	} 
