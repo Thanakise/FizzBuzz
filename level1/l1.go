@@ -17,6 +17,10 @@ func isDivideBy3(number int) bool{
 
 func FizzbuzzLevel1(number int) string {
 
+	if isDivideBy3(number) && isDivideBy5(number){
+		return "FizzBuzz"
+	}
+
 	if isDivideBy5(number){
 		return "Buzz"
 	}
