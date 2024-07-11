@@ -4,20 +4,20 @@ import "testing"
 
 func TestFizzBuzzLevel1(t *testing.T){
 	input := 1
-	got := FizzbuzzLevel1(input)
+	got := ConvertIntToString(input)
 	want := "1"
 	if got != want {
 		t.Errorf("got %q but want %q", got, want)
 	}
 }
-// func TestFizzBuzzLevel2(t *testing.T){
-// 	input := 2
-// 	got := FizzbuzzLevel1(input)
-// 	want := "2"
-// 	if got != want {
-// 		t.Errorf("got %q but want %q", got, want)
-// 	}
-// }
+func TestFizzBuzzLevel2(t *testing.T){
+	input := 2
+	got := ConvertIntToString(input)
+	want := "2"
+	if got != want {
+		t.Errorf("got %q but want %q", got, want)
+	}
+}
 // func TestFizzBuzzLevel3(t *testing.T){
 // 	input := 3
 // 	got := FizzbuzzLevel1(input)
