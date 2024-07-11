@@ -8,5 +8,8 @@ func ConvertIntToString(number int) string{
 }
 
 func FizzbuzzLevel1(number int) string {
-	return "1"
+	if number == 3 {
+		return "Fizz"
+	}
+	return ConvertIntToString(number)
 }
