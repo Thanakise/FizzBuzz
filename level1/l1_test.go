@@ -34,14 +34,14 @@ func TestFizzBuzzLevel4(t *testing.T){
 		t.Errorf("got %q but want %q", got, want)
 	}
 }
-// func TestFizzBuzzLevel5(t *testing.T){
-// 	input := 5
-// 	got := FizzbuzzLevel1(input)
-// 	want := "Buzz"
-// 	if got != want {
-// 		t.Errorf("got %q but want %q", got, want)
-// 	}
-// }
+func TestFizzBuzzLevel5(t *testing.T){
+	input := 5
+	got := FizzbuzzLevel1(input)
+	want := "Buzz"
+	if got != want {
+		t.Errorf("got %q but want %q", got, want)
+	}
+}
 // func TestFizzBuzzLevel6(t *testing.T){
 // 	input := 6
 // 	got := FizzbuzzLevel1(input)
